@@ -1,0 +1,125 @@
+body{
+	height:100%;
+}
+.header{
+	width:100%;
+	height: 100px;
+	background: -o-linear-gradient(top, #fff 0%,#112b31 100%);
+    background: -ms-linear-gradient(top, #fff 0%,#112b31 100%);
+	background: -moz-linear-gradient(top, #fff 0%,#112b31 100%);
+	background: -webkit-linear-gradient(top, #fff 0%,#112b31 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fff), color-stop(100%,#112b31));
+    background: linear-gradient(to bottom, #fff 0%,#112b31 100%);
+}
+.container{
+	margin: 100px 0px  0px 0px;
+	background: red;
+}
+.aside{
+	left: 0;
+	bottom: 0;
+	top: 100px;
+	width: 200px;
+	overflow: auto; 
+	background: #000;
+	position: absolute;
+	background: -o-linear-gradient(top, #ccc 0%,#000 100%);
+    background: -ms-linear-gradient(top, #ccc 0%,#000 100%);
+	background: -moz-linear-gradient(top, #ccc 0%,#000 100%);
+	background: -webkit-linear-gradient(top, #ccc 0%,#000 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ccc), color-stop(100%,#000));
+    background: linear-gradient(to bottom, #ccc 0%,#000 100%);
+}
+.content{
+	top: 100px;
+	right: 0px;
+	left: 200px;
+	bottom: 0px;
+	overflow: auto;
+	background: green;
+	position: absolute;
+	position: absolute;
+}
+.box-first>li{
+	position: relative;
+	border-bottom: 1px solid #ccc;
+}
+.level-first{
+	height: 50px;
+	display: block;
+	line-height: 50px;
+	text-indent: 12px;
+}
+.level-first-down{
+	top: 17px;
+	right: 20px;
+	color: #ffffff;
+	font-size: 16px;
+	position: absolute;
+}
+
+.box-second{
+	display: none;
+}
+.box-second>li{
+	background: #777;
+	position: relative;
+	border-bottom: 1px  solid  #555;
+}
+.level-second{
+	height: 50px;
+	display: block;
+	text-indent: 50px;
+	line-height: 50px;
+}
+.level-second-down{
+	top: 18px;
+	right: 20px;
+	color: #ffffff;
+	font-size: 16px;
+	position: absolute;
+}
+
+
+.box-third{
+	display: none;
+	text-indent: 50px;
+}
+.box-third>li{
+	height:50px;
+	line-height:50px;
+	background: #555;
+	border-bottom: 1px solid #333;
+}
+.top{
+	transition: all .3s;
+	-o-transform:rotate(180deg); 	/* Opera */
+	-ms-transform:rotate(180deg); 	/* IE 9 */
+	-moz-transform:rotate(180deg); 	/* Firefox */
+	-webkit-transform:rotate(180deg); /* Safari 和 Chrome */  
+	transform:rotate(180deg);
+}
+.bottom {
+    transition: all .3s;
+	-o-transform:rotate(0deg); 	/* Opera */
+	-ms-transform:rotate(0deg); 	/* IE 9 */
+	-moz-transform:rotate(0deg); 	/* Firefox */
+	-webkit-transform:rotate(0deg); /* Safari 和 Chrome */
+	transform:rotate(0deg);
+}
+.aside-bar{
+	left: 0;
+	width:10px;
+	z-index: 99;
+	height: 50px;
+	background: red;
+	position: absolute;
+
+}
+
+
+
+
+
+
+

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="./css/reset.css">
+	<link rel="stylesheet" type="text/css" href="./css/linkage.css">
+	<link rel="stylesheet" type="text/css" href="./aside_font/iconfont.css">
+	<script src="./js/jquery-1.11.1.js" type="text/javascript" ></script>
+	<script src="./js/linkage.js" type="text/javascript" charset="utf-8" async defer></script>
+
+</head>
+<body>
+	<div class="header">
+		
+	</div>
+	<div class="container">
+		<div class="aside">
+			<div class='aside-bar'>
+				
+			</div>
+			<ul class="box-first">
+				<li>
+					<a class="level-first first0" href="javascript:;" title="">一级菜单</a>
+					<i class="iconfont icon-gongyongshuangjiantouxia1  level-first-down  "></i>
+					<ul class="box-second">
+						<li >
+							<a class="level-second second0" href="javascript:;" title="">二级菜单</a>
+							<i class="iconfont icon-down3 level-second-down " ></i>
+							<ul class="box-third">
+								<li class="levle-third">三级菜单</li>
+								<li class="levle-third">三级菜单</li>
+								<li class="levle-third">三级菜单</li>
+								<li class="levle-third">三级菜单</li>
+							
+							</ul>
+						</li>
+						<li >
+							<a class="level-second second1" href="javascript:;" title="">二级菜单</a>
+							<i class="iconfont icon-down3 level-second-down " ></i>
+							<ul class="box-third">
+								<li class="levle-third">三级菜单</li>
+								<li class="levle-third">三级菜单</li>
+								<li class="levle-third">三级菜单</li>
+								<li class="levle-third">三级菜单</li>
+							
+							</ul>
+						</li>
+						<li >
+							<a class="level-second second2" href="javascript:;" title="">二级菜单</a>
+							<i class="iconfont icon-down3 level-second-down " ></i>
+							<ul class="box-third">
+								<li class="levle-third">三级菜单</li>
+								<li class="levle-third">三级菜单</li>
+								<li class="levle-third">三级菜单</li>
+								<li class="levle-third">三级菜单</li>
+							
+							</ul>
+						</li>
+					</ul>
+
+				</li>
+				<li>
+					<a class="level-first first1" href="javascript:;" title="">一级菜单</a>
+					<i class="iconfont icon-gongyongshuangjiantouxia1 level-first-down " ></i>
+					<ul class="box-second">
+						<li >
+							<a class="level-second  second0" href="javascript:;" title="">二级菜单</a>
+							<i class="iconfont icon-down3 level-second-down " ></i>
+							<ul class="box-third">
+								<li class="levle-third">三级菜单</li>
+							
+							</ul>
+						</li>
+						<li >
+							<a class="level-second second1" href="javascript:;" title="">二级菜单</a>
+							<i class="iconfont icon-down3 level-second-down " ></i>
+							<ul class="box-third">
+								<li class="levle-third">三级菜单</li>
+							
+							</ul>
+						</li>
+					</ul>
+
+				</li>
+				<li>
+					<a class="level-first first2" href="javascript:;" title="">一级菜单</a>
+					<i class="iconfont icon-gongyongshuangjiantouxia1 level-first-down " ></i>
+					<ul class="box-second">
+						<li >
+							<a class="level-second second0" href="javascript:;" title="">二级菜单</a>
+							<i class="iconfont icon-down3 level-second-down " ></i>
+							<ul class="box-third">
+								<li class="levle-third">三级菜单</li>
+							
+							</ul>
+						</li>
+					</ul>
+
+				</li>
+				<li>
+					<a class="level-first first3" href="javascript:;" title="">一级菜单</a>
+					<i class="iconfont icon-gongyongshuangjiantouxia1 level-first-down " ></i>
+					<ul class="box-second">
+						<li >
+							<a class="level-second second0" href="javascript:;" title="">二级菜单</a>
+							<i class="iconfont icon-down3 level-second-down " ></i>
+							<ul class="box-third">
+								<li class="levle-third">三级菜单</li>
+							
+							</ul>
+						</li>
+					</ul>
+
+				</li>
+			</ul>
+		</div>
+		<div class="content">
+			
+		</div>
+	</div>
+
+</body>
+</html>
+<script>
+	$('.aside').on('mousemove', function(e) {
+		var top = $(e.target).offset().top-100;
+		$('.aside-bar').css('top',top)
+
+	})
+</script>
